@@ -1,0 +1,7 @@
+{
+  "name": "careersbooster.com",
+  "short_name": "careersbooster.com",
+  "start_url": "/",
+  "display": "standalone",
+  "gcm_sender_id": "482941778795"
+}

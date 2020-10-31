@@ -1,0 +1,57 @@
+[24-07-2018 07:07:35] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[24-07-2018 07:07:37] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[24-07-2018 07:07:37] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[24-07-2018 07:07:39] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 400
+[24-07-2018 07:07:39] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 400 when accessing https://api.sandbox.paypal.com/v1/payments/payment. {"name":"VALIDATION_ERROR","details":[{"field":"transactions[0].amount","issue":"Amount cannot be zero"},{"field":"transactions[0].item_list.items[0].price","issue":"Required field missing"}],"message":"Invalid request - see details","information_link":"https://developer.paypal.com/docs/api/payments/#errors","debug_id":"d6210cb0f2ea0"}
+[24-07-2018 07:07:39] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[24-07-2018 07:07:40] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 400
+[24-07-2018 07:07:40] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 400 when accessing https://api.sandbox.paypal.com/v1/payments/payment. {"name":"VALIDATION_ERROR","details":[{"field":"transactions[0].amount","issue":"Amount cannot be zero"},{"field":"transactions[0].item_list.items[0].price","issue":"Required field missing"}],"message":"Invalid request - see details","information_link":"https://developer.paypal.com/docs/api/payments/#errors","debug_id":"2832dec853b6f"}
+[24-07-2018 07:07:57] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[24-07-2018 07:07:58] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 400
+[24-07-2018 07:07:58] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 400 when accessing https://api.sandbox.paypal.com/v1/payments/payment. {"name":"VALIDATION_ERROR","details":[{"field":"transactions[0].item_list.items[0].price","issue":"Required field missing"},{"field":"transactions[0].amount","issue":"Amount cannot be zero"}],"message":"Invalid request - see details","information_link":"https://developer.paypal.com/docs/api/payments/#errors","debug_id":"dedfb5cf64b0d"}
+[24-07-2018 07:08:44] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[24-07-2018 07:08:46] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 400
+[24-07-2018 07:08:46] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 400 when accessing https://api.sandbox.paypal.com/v1/payments/payment. {"name":"VALIDATION_ERROR","details":[{"field":"transactions[0].item_list.items[0].price","issue":"Required field missing"},{"field":"transactions[0].amount","issue":"Amount cannot be zero"}],"message":"Invalid request - see details","information_link":"https://developer.paypal.com/docs/api/payments/#errors","debug_id":"aba09dd05de70"}
+[24-07-2018 07:08:59] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[24-07-2018 07:09:00] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 400
+[24-07-2018 07:09:00] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 400 when accessing https://api.sandbox.paypal.com/v1/payments/payment. {"name":"VALIDATION_ERROR","details":[{"field":"transactions[0].amount","issue":"Amount cannot be zero"},{"field":"transactions[0].item_list.items[0].price","issue":"Required field missing"}],"message":"Invalid request - see details","information_link":"https://developer.paypal.com/docs/api/payments/#errors","debug_id":"16aacda17a074"}
+[24-07-2018 07:09:59] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[24-07-2018 07:10:01] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 400
+[24-07-2018 07:10:01] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 400 when accessing https://api.sandbox.paypal.com/v1/payments/payment. {"name":"VALIDATION_ERROR","details":[{"field":"transactions[0].amount","issue":"Amount cannot be zero"},{"field":"transactions[0].item_list.items[0].price","issue":"Required field missing"}],"message":"Invalid request - see details","information_link":"https://developer.paypal.com/docs/api/payments/#errors","debug_id":"d29efea0d0f4b"}
+[24-07-2018 07:10:01] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[24-07-2018 07:10:02] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 400
+[24-07-2018 07:10:02] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 400 when accessing https://api.sandbox.paypal.com/v1/payments/payment. {"name":"VALIDATION_ERROR","details":[{"field":"transactions[0].item_list.items[0].price","issue":"Required field missing"},{"field":"transactions[0].amount","issue":"Amount cannot be zero"}],"message":"Invalid request - see details","information_link":"https://developer.paypal.com/docs/api/payments/#errors","debug_id":"b5947d062918d"}
+[24-07-2018 07:10:02] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[24-07-2018 07:10:03] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 400
+[24-07-2018 07:10:03] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 400 when accessing https://api.sandbox.paypal.com/v1/payments/payment. {"name":"VALIDATION_ERROR","details":[{"field":"transactions[0].amount","issue":"Amount cannot be zero"},{"field":"transactions[0].item_list.items[0].price","issue":"Required field missing"}],"message":"Invalid request - see details","information_link":"https://developer.paypal.com/docs/api/payments/#errors","debug_id":"5d40c0088c0b2"}
+[24-07-2018 07:10:03] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[24-07-2018 07:10:05] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 400
+[24-07-2018 07:10:05] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 400 when accessing https://api.sandbox.paypal.com/v1/payments/payment. {"name":"VALIDATION_ERROR","details":[{"field":"transactions[0].amount","issue":"Amount cannot be zero"},{"field":"transactions[0].item_list.items[0].price","issue":"Required field missing"}],"message":"Invalid request - see details","information_link":"https://developer.paypal.com/docs/api/payments/#errors","debug_id":"e3c44d10d3988"}
+[24-07-2018 07:10:05] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[24-07-2018 07:10:06] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 400
+[24-07-2018 07:10:06] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 400 when accessing https://api.sandbox.paypal.com/v1/payments/payment. {"name":"VALIDATION_ERROR","details":[{"field":"transactions[0].amount","issue":"Amount cannot be zero"},{"field":"transactions[0].item_list.items[0].price","issue":"Required field missing"}],"message":"Invalid request - see details","information_link":"https://developer.paypal.com/docs/api/payments/#errors","debug_id":"749b15c846508"}
+[24-07-2018 07:10:06] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[24-07-2018 07:10:08] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 400
+[24-07-2018 07:10:08] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 400 when accessing https://api.sandbox.paypal.com/v1/payments/payment. {"name":"VALIDATION_ERROR","details":[{"field":"transactions[0].item_list.items[0].price","issue":"Required field missing"},{"field":"transactions[0].amount","issue":"Amount cannot be zero"}],"message":"Invalid request - see details","information_link":"https://developer.paypal.com/docs/api/payments/#errors","debug_id":"f981a772b4621"}
+[24-07-2018 07:10:08] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[24-07-2018 07:10:09] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 400
+[24-07-2018 07:10:09] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 400 when accessing https://api.sandbox.paypal.com/v1/payments/payment. {"name":"VALIDATION_ERROR","details":[{"field":"transactions[0].item_list.items[0].price","issue":"Required field missing"},{"field":"transactions[0].amount","issue":"Amount cannot be zero"}],"message":"Invalid request - see details","information_link":"https://developer.paypal.com/docs/api/payments/#errors","debug_id":"a2a4d09321adb"}
+[24-07-2018 07:10:20] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[24-07-2018 07:10:22] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 400
+[24-07-2018 07:10:22] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 400 when accessing https://api.sandbox.paypal.com/v1/payments/payment. {"name":"VALIDATION_ERROR","details":[{"field":"transactions[0].item_list.items[0].price","issue":"Required field missing"},{"field":"transactions[0].amount","issue":"Amount cannot be zero"}],"message":"Invalid request - see details","information_link":"https://developer.paypal.com/docs/api/payments/#errors","debug_id":"528bae91139f"}
+[24-07-2018 07:11:00] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[24-07-2018 07:11:02] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 400
+[24-07-2018 07:11:02] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 400 when accessing https://api.sandbox.paypal.com/v1/payments/payment. {"name":"VALIDATION_ERROR","details":[{"field":"transactions[0].amount","issue":"Amount cannot be zero"},{"field":"transactions[0].item_list.items[0].price","issue":"Required field missing"}],"message":"Invalid request - see details","information_link":"https://developer.paypal.com/docs/api/payments/#errors","debug_id":"d10237615e24f"}
+[24-07-2018 07:11:26] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[24-07-2018 07:14:51] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[24-07-2018 07:14:56] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[21-08-2018 08:08:56] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[21-08-2018 08:08:58] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[21-08-2018 08:08:58] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[21-08-2018 08:09:03] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[21-08-2018 08:30:02] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[21-08-2018 08:30:04] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[21-08-2018 08:35:39] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[21-08-2018 08:35:42] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
+[21-08-2018 08:39:24] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[21-08-2018 08:39:27] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 201
